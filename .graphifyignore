@@ -1,0 +1,11 @@
+.git/
+.venv*/
+output/
+tmp/
+dist/
+__pycache__/
+graphify-out/
+data-management/
+*.blend
+*.npz
+*.safetensors

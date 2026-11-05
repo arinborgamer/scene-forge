@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+id = "scene_forge"
+version = "0.4.0"
+name = "Scene Forge"
+tagline = "Build editable scenes with a local AI planner"
+maintainer = "Scene Forge Contributors"
+type = "add-on"
+tags = ["Animation", "3D View"]
+blender_version_min = "5.1.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Save generated projects, previews and logs in your chosen folder"
+network = "Connect to your local Ollama instance on localhost"

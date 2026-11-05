@@ -1,0 +1,6 @@
+[
+  {"id":"review-light","prompt":"For the existing area light named StudioKey, set its power to 0.75 kilowatts. Keep its color and position unchanged.","operation":{"op":"light_power","target":"StudioKey","watts":750}},
+  {"id":"review-camera","prompt":"Change the existing camera ShotCamera to a focal length of 5.5 centimetres. Leave its position alone.","operation":{"op":"camera_lens","target":"ShotCamera","millimeters":55}},
+  {"id":"review-surface","prompt":"Set metallic to 80 percent and roughness to 25 percent on the existing material of ReviewSphere. Preserve its color.","operation":{"op":"surface","target":"ReviewSphere","roughness":0.25,"metallic":0.8}},
+  {"id":"review-glare","prompt":"For existing compositor Glare node ReviewGlow, set threshold to 1.2 and strength to 45 percent. Preserve everything else.","operation":{"op":"glow","target":"ReviewGlow","threshold":1.2,"strength":0.45}}
+]

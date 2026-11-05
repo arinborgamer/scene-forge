@@ -1,0 +1,17 @@
+{
+  "purpose": "Frozen evaluation prompts. Not supplied as examples to Qwen and not training data.",
+  "cases": {
+    "bust": {
+      "prompt": "Create an original silver mechanical humanoid bust, about 0.7 m tall, facing negative Y. Give it an elongated head with a visibly tapered jaw, two separate cyan eye lenses, a narrow neck, and a broad shoulder base. Build the head with a custom loft profile rather than a single primitive. Add an angular chest badge as an explicit polygon mesh. Do not create hair, arms or a full body. Name the parts head_shell, eye_left, eye_right, neck, shoulders and badge.",
+      "expectation": "Six named parts; head uses a model-specified loft; badge uses explicit mesh vertices/faces; jaw narrower than upper head; eyes cyan and separated across X; overall height 0.5 to 0.9 metres. Visual quality separately reviewed."
+    },
+    "revision": {
+      "prompt": "Revise the existing bust only: widen shoulders by 20 percent along X, leaving their Y and Z sizes unchanged. Move eye_left and eye_right forward by 0.02 metres along negative Y and change both lenses to orange #ff8800. Leave every other object, material and shape unchanged. Do not add new objects.",
+      "expectation": "Shoulder X width multiplied by 1.2; eye Y locations reduced by 0.02; both eyes orange; head, neck and badge unchanged; no added objects."
+    },
+    "humanoid_edit": {
+      "prompt": "On Humanoid_Trained_Shape, broaden only the upper chest slightly in X with a smooth local edit centered near Z=1.35 metres. Keep the edit within X=-0.35 to 0.35 and Z=1.15 to 1.50 metres. Aim for a subtle change, less than 2 cm of movement. Keep the head, hands, legs, materials, all 163 bones and all skin weights unchanged. Do not add objects, change the overall height or transform the whole body.",
+      "expectation": "At least 20 vertices move inside the requested region; every vertex outside stays unchanged; max displacement under 0.02m; topology, weights, materials, rig and object transform unchanged."
+    }
+  }
+}

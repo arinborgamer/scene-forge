@@ -1,0 +1,17 @@
+[
+  {
+    "id": "athletic-negative-scale",
+    "input": "output/modeling-review-athletic-v2/scene/humanoid.blend",
+    "editable": "Humanoid_Trained_Shape",
+    "prompt": "Keep Humanoid_Trained_Shape stationary. Inside the ellipsoid centered at [0, 0, 1.15] metres with radii [0.28, 0.22, 0.2] metres, shrink the local Y extent by 7 percent using smooth falloff. Other axes, outside vertices, topology, materials, skin weights and the rig must stay unchanged.",
+    "expected_operation": {
+      "op": "deform",
+      "target": "Humanoid_Trained_Shape",
+      "center": [0, 0, 1.15],
+      "radius": [0.28, 0.22, 0.2],
+      "translation": [0, 0, 0],
+      "scale": [1, 0.93, 1]
+    },
+    "scope": "New contraction request on supplied CC0-family anatomy. Evaluation only, never training data. Not learned anatomy or animation."
+  }
+]

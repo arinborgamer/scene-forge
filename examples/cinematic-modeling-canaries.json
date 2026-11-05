@@ -1,0 +1,18 @@
+[
+  {
+    "id": "athletic-local-offset",
+    "input": "output/modeling-review-athletic-v2/scene/humanoid.blend",
+    "editable": "Humanoid_Trained_Shape",
+    "prompt": "Locally move vertices of Humanoid_Trained_Shape by 12.5 millimetres along Z. Use ellipsoid center [0.02, 0, 1.28] metres and radii [0.32, 0.24, 0.16] metres with smooth falloff. Do not scale, move the object itself or change vertices outside this region.",
+    "expected_operation": {"op": "deform", "target": "Humanoid_Trained_Shape", "center": [0.02, 0, 1.28], "radius": [0.32, 0.24, 0.16], "translation": [0, 0, 0.0125], "scale": [1, 1, 1]},
+    "scope": "New numerical request on a supplied detailed mesh. Same inherited topology/rig family; no anatomy generation or independent-rig generalization. Never training data."
+  },
+  {
+    "id": "older-local-scale",
+    "input": "output/modeling-review-older-v1/scene/humanoid.blend",
+    "editable": "Humanoid_Trained_Shape",
+    "prompt": "Increase the local Y extent of Humanoid_Trained_Shape by 6 percent. Use center X=0, Y=0, Z=1.3; ellipsoid radii X=0.3, Y=0.22, Z=0.18 metres. Keep other axes, outside vertices and the object transform unchanged.",
+    "expected_operation": {"op": "deform", "target": "Humanoid_Trained_Shape", "center": [0, 0, 1.3], "radius": [0.3, 0.22, 0.18], "translation": [0, 0, 0], "scale": [1, 1.06, 1]},
+    "scope": "New numerical request on a different supplied adult shape of the same source family. Never training data."
+  }
+]

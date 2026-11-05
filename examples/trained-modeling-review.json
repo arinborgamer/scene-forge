@@ -1,0 +1,15 @@
+{
+  "description": "Declared before adapter evaluation. Detailed source asset edit; not learned character creation.",
+  "input": "output/modeling-review-athletic-v2/scene/humanoid.blend",
+  "editable": "Humanoid_Trained_Shape",
+  "prompt": "Increase the local X extent of Humanoid_Trained_Shape by 8 percent. Use center X=0, Y=0, Z=1.35; ellipsoid radii X=0.35, Y=0.25, Z=0.15 metres. Keep other axes, all outside vertices and the object transform unchanged.",
+  "expected_operation": {
+    "op": "deform",
+    "target": "Humanoid_Trained_Shape",
+    "center": [0, 0, 1.35],
+    "radius": [0.35, 0.25, 0.15],
+    "translation": [0, 0, 0],
+    "scale": [1.08, 1, 1]
+  },
+  "limitations": "Same language template as the synthetic curriculum; new object name, region tuple and actual detailed mesh. Not a held-out language-family test. Original vague chest request remains a separate harder task."
+}

@@ -1,0 +1,431 @@
+{
+  "repository": "makehumancommunity/mpfb2",
+  "revision": "3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/LICENSE.md",
+      "bytes": 3188,
+      "git_blob": "88cf832acc18dd64fd27ff2efb84625718bf2201",
+      "sha256": "5cefb60680cb9efd4550a2e65d719021cfbec9dad3658481d11d48ae863ce04d",
+      "license": "license document"
+    },
+    {
+      "path": "LICENSE.ASSETS.md",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/LICENSE.ASSETS.md",
+      "bytes": 6962,
+      "git_blob": "f3ede1fc3318f8d794e2cb51924186c62f02f71a",
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "license": "license document"
+    },
+    {
+      "path": "src/mpfb/data/3dobjs/base.obj",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/3dobjs/base.obj",
+      "bytes": 1749303,
+      "git_blob": "d26635e9326e3cca30778fd7b9c00062b03cce09",
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/rigs/standard/rig.default.json",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/rigs/standard/rig.default.json",
+      "bytes": 126355,
+      "git_blob": "85900f3ac30228f403eadb10cb370f2f99f41263",
+      "sha256": "8b949de35c2dd70dbb5094e57a8586c3b9a9f650775a293212581a8f67be6797",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/rigs/standard/weights.default.json",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/rigs/standard/weights.default.json",
+      "bytes": 5034981,
+      "git_blob": "1328020289b65b019f0881841bf40418c315fef7",
+      "sha256": "154b866774a8c2b055a8e86419f22a87b76c60440fdcb70bcb78345f00924e89",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/african-female-young.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/african-female-young.target.gz",
+      "bytes": 123654,
+      "git_blob": "a0e31579214e23ffb6798513f85079f70b1eb88a",
+      "sha256": "1147ae55ecb0f66bade3f45176b3af187e265878322db172ad1090e9f3108e84",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/asian-female-young.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/asian-female-young.target.gz",
+      "bytes": 135687,
+      "git_blob": "cb90d8b5110752170f84dbff9e1ac4513edc3bbf",
+      "sha256": "ee17da733288434e5b6fa120497f1fa6e72bf7faad5d694b0431d7275139170d",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/caucasian-female-young.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/caucasian-female-young.target.gz",
+      "bytes": 127369,
+      "git_blob": "32634e46613fef3e3b56e52c366ba0322a3c084b",
+      "sha256": "e9d6212373ac5f1e2c596fa145e363385f4d169c3c6c88ede3bab93b681af041",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-young-minmuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-young-minmuscle-minweight.target.gz",
+      "bytes": 99371,
+      "git_blob": "21c179e3a0af66672b89717e9fefcb7415105bc8",
+      "sha256": "18ecff47c3606608472afab0f79a88afaf0c3d5c139bf81c1ef7867a9a9b78a5",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-young-minmuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-young-minmuscle-averageweight.target.gz",
+      "bytes": 27488,
+      "git_blob": "1161d8b4dad74f35240a2cbfd60de27ea4c76f13",
+      "sha256": "2d939513053fb4a58b6752457c00419c0a2b6a658f0f034dc079d59e19931627",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-young-minmuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-young-minmuscle-maxweight.target.gz",
+      "bytes": 64521,
+      "git_blob": "84b7b41440d25abd0889eae4c932ffcda2cced83",
+      "sha256": "bb8da1aa94cecd782ae0d2b58067204589a06e55915717d5852452d60aa751e7",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-young-averagemuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-young-averagemuscle-minweight.target.gz",
+      "bytes": 44735,
+      "git_blob": "f539b2fb3a1b837cafbae1dfac3496de0446229b",
+      "sha256": "5c65527e5d6e83b98ffa3da5bd61372eff70f89e95585bdacd0e3f70e48062aa",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-young-averagemuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-young-averagemuscle-averageweight.target.gz",
+      "bytes": 78,
+      "git_blob": "7a9c58f432236cd107ac935ebbe5a18ae2ef0ff4",
+      "sha256": "30046c85a461249824548d5319d74c16392842a1ee00ca9a4485ea3eeb06e2e8",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-young-averagemuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-young-averagemuscle-maxweight.target.gz",
+      "bytes": 36449,
+      "git_blob": "7f0a9c5770b8079854f52bee80275596fc60c5ae",
+      "sha256": "eaec00c7fe67738765170b94648e6cdf1078ff15a2c0f745645750eb6fef45bf",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-young-maxmuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-young-maxmuscle-minweight.target.gz",
+      "bytes": 45027,
+      "git_blob": "2ee0c7029dc045b1a59ffd8aa6640bad9502f2cc",
+      "sha256": "f67344b6aa1808737d78b619c062effe04aad0bfe67e9f80fa6294e2eb5342a5",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-young-maxmuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-young-maxmuscle-averageweight.target.gz",
+      "bytes": 41387,
+      "git_blob": "29bf699d3042888ea1d22fd92ea06979a9fe8d12",
+      "sha256": "b1b77fc23f47ebe4a47b14651aadcedf44b2d9c2a1323fbda396952b98632627",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-young-maxmuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-young-maxmuscle-maxweight.target.gz",
+      "bytes": 51400,
+      "git_blob": "adf50eaaf78bb81272d75711d979b217c9db2885",
+      "sha256": "6a36ca389bd4ba5e2efe1f885d493e19096cd12d2ae7c810add715f6d9fff0f2",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/african-female-old.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/african-female-old.target.gz",
+      "bytes": 125676,
+      "git_blob": "8325de883465696e8e9af870a6ff63084b064408",
+      "sha256": "a097b300928d3be97f30b6182cb252c2de09433cb3a571de890952a1d25d3f18",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/asian-female-old.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/asian-female-old.target.gz",
+      "bytes": 135183,
+      "git_blob": "ef1e37933901962b9f45c4aa41198741f67becc7",
+      "sha256": "b32b6d492ebf48cb26e11bf73bf979ba946316bf9e9f2ba291e0267a2846e3cf",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/caucasian-female-old.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/caucasian-female-old.target.gz",
+      "bytes": 116944,
+      "git_blob": "6bcb4ae250919d5f177da08381229a61ab31cdff",
+      "sha256": "2f2e27968953da08ab3bb048ce178e2936e32856f65f397968499567d3afd08f",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-old-minmuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-old-minmuscle-minweight.target.gz",
+      "bytes": 72680,
+      "git_blob": "e7a39b72fc6a2e3d8dcc3c20f126d328e8b333df",
+      "sha256": "61927083c80a044ba64788eadf7341cec39f9da5c07aa4aa43625a73a929d099",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-old-minmuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-old-minmuscle-averageweight.target.gz",
+      "bytes": 28220,
+      "git_blob": "74fb276d2c44dd3eb848296859efbe446f64cf2b",
+      "sha256": "11939b61eb2735abd2d3aeb0b248dc6160706abcb635b5db45758bae956deddc",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-old-minmuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-old-minmuscle-maxweight.target.gz",
+      "bytes": 63291,
+      "git_blob": "d26a9380b3b0a36ae3a863b8b90309d464a5c01f",
+      "sha256": "0db6338ba03fc9e228dd884339ada9f3a0f48a7bad744dd809d4580413ac8e89",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-old-averagemuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-old-averagemuscle-minweight.target.gz",
+      "bytes": 46165,
+      "git_blob": "5608201b3fc715341d764f106da86023d69922cd",
+      "sha256": "6714a95eb7af3b1247b4bf0446f8dfd57731362cc171dbbbdca97291c5dfe55a",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-old-averagemuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-old-averagemuscle-averageweight.target.gz",
+      "bytes": 76,
+      "git_blob": "32c60988a64ff1b3f2907ff8181a210c0ac68978",
+      "sha256": "e592836eee975b83de976b30a04444a36c1f4da7abe8c7c910e751926f040a7e",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-old-averagemuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-old-averagemuscle-maxweight.target.gz",
+      "bytes": 45526,
+      "git_blob": "828e1bddf23665f272058da74bf949552d5c14d8",
+      "sha256": "020f83918f355e2a6a5b46d4707c0fa6a713c0e2923d686cb0f999978c34d956",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-old-maxmuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-old-maxmuscle-minweight.target.gz",
+      "bytes": 45900,
+      "git_blob": "57b33356986b2aa82eaf0fdcc8855a95c894146c",
+      "sha256": "c9fef1d7c1c388483e24ba80863444487791e1297958c9dc7fdbcb9cb4440193",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-old-maxmuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-old-maxmuscle-averageweight.target.gz",
+      "bytes": 42480,
+      "git_blob": "f7316f47424f29cc4f1effedb9b15517b0edc321",
+      "sha256": "01f0f6f44313e353d9ae2590035ff35cb91a18e46cb8e45d0933f0a8105129ca",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-female-old-maxmuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-female-old-maxmuscle-maxweight.target.gz",
+      "bytes": 51294,
+      "git_blob": "b9e3aae90bca0d64393de9329e8a66aea1382165",
+      "sha256": "ba2b2749f630071eb2a2f014ac5f3b8a5f0ece14f6d3a116a3eb2e4a22843e34",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/african-male-young.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/african-male-young.target.gz",
+      "bytes": 132860,
+      "git_blob": "9766ea5744d25cbe5fac564ec5c2a67c2020d78e",
+      "sha256": "05ed84d6df36e788cdfa8da0be15376850524b960cf2f17f3e592b9cf7d21c85",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/asian-male-young.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/asian-male-young.target.gz",
+      "bytes": 130005,
+      "git_blob": "bdf5b7e7c91df84ef277e312d9809ee62475f2c4",
+      "sha256": "0928ed8b9f08f60afb9884cf9e9f33a939ed3a85d7f136de9ccc88a76981d6d7",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/caucasian-male-young.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/caucasian-male-young.target.gz",
+      "bytes": 127922,
+      "git_blob": "a422546d7026c93e17f04679249f5c7e2d3b7800",
+      "sha256": "ffe69537e53148edff2776204ba48cf3bf1f3cbc72966592c8a562ab80b07333",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-young-minmuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-young-minmuscle-minweight.target.gz",
+      "bytes": 58855,
+      "git_blob": "0653cf226eeaeada88168ad6aa783b7395241e5a",
+      "sha256": "166a31465a2790a321e55e274a7f43c56bfe58ad1cf443afacd45a7a23abf407",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-young-minmuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-young-minmuscle-averageweight.target.gz",
+      "bytes": 46890,
+      "git_blob": "4f1c7b62b89d821fa190f3d0aa81d6dfe3cfecfe",
+      "sha256": "d1c0a768f42219e9630f08805939510efbe2a390b451fa52cc575205bc761d7e",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-young-minmuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-young-minmuscle-maxweight.target.gz",
+      "bytes": 77242,
+      "git_blob": "11f42bfa619409a3ab2dbdb6c6e438b51bb81979",
+      "sha256": "5cd87b8e6856a3e9e6b71d15580e1ae9b058f478ce8c1ea73c1b145df9c8e0e6",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-young-averagemuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-young-averagemuscle-minweight.target.gz",
+      "bytes": 42696,
+      "git_blob": "af8ca59347c0ad03e79a2bd4a0c8888d222544a8",
+      "sha256": "e4a993057e265088e082ee2aeccc860505e759b27251dc63a78314e1f8c78a16",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-young-averagemuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-young-averagemuscle-averageweight.target.gz",
+      "bytes": 76,
+      "git_blob": "4cc4b83c564a121719ce45f0389e50b01932f358",
+      "sha256": "e814651195c53971503d9823d6841216718a561951ef064f81d132297f4fa494",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-young-averagemuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-young-averagemuscle-maxweight.target.gz",
+      "bytes": 45230,
+      "git_blob": "e6e69daba705f579b506c3898d035be83e1675a4",
+      "sha256": "13b79074ecf00a0d028495a51865ae9e86c06b5801b6a614257b455ffbec7d10",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-young-maxmuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-young-maxmuscle-minweight.target.gz",
+      "bytes": 47278,
+      "git_blob": "32d59b4ccc5039ad69cba25fdd05d201d48e3a56",
+      "sha256": "0323cb5c604d13207d1a10ade8ce165df1cbf14d91de48ad959a082297669905",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-young-maxmuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-young-maxmuscle-averageweight.target.gz",
+      "bytes": 45597,
+      "git_blob": "f25c95bed371d2e03eec1b43e61d47f8c658c21e",
+      "sha256": "833caafc302bd9306de494f32ee1bc51d3a2e6641183329b031ac06ef0f4277e",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-young-maxmuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-young-maxmuscle-maxweight.target.gz",
+      "bytes": 57195,
+      "git_blob": "7f326807177258ad26fa597978e19b5c12002014",
+      "sha256": "4c88d7850d64ae8a455bd375755769a2153cce98a7e0b1acce6fa0454083d14d",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/african-male-old.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/african-male-old.target.gz",
+      "bytes": 127252,
+      "git_blob": "52f833c2999def4127db26f838e5779f77cbca81",
+      "sha256": "fb3477ab3c05d6ea421d82717c3df89ff23f926d1e5148092e30c0efe2ea96de",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/asian-male-old.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/asian-male-old.target.gz",
+      "bytes": 130281,
+      "git_blob": "e142a2b4327ff25a6b1b48b99d3e9f7db8de5ee8",
+      "sha256": "8f931e96529904375a442c77be0c31d60ace6c0461645ed7ab1a43a3c378a247",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/caucasian-male-old.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/caucasian-male-old.target.gz",
+      "bytes": 112944,
+      "git_blob": "f14d7c89660d73c12758623634c4d4f9d0160fb2",
+      "sha256": "123cb7758c86aa2aa71d80ea0c8f5f4b3e96f394180edc1682e34720c4949df6",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-old-minmuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-old-minmuscle-minweight.target.gz",
+      "bytes": 59002,
+      "git_blob": "264f2175e672ca824b9df510f81310bd8c8200d9",
+      "sha256": "0d5e260cedd07cd8bacd14f74a5cda27977051cae413906996c59527f372ee42",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-old-minmuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-old-minmuscle-averageweight.target.gz",
+      "bytes": 44677,
+      "git_blob": "c394cf3034b3f6ba0f7bf240ed31e6fd8a3a7418",
+      "sha256": "8c7923d2afd0a53f317a89aa9a71f8ae57e0a7172ef3b577d4db7fd06c6a7a80",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-old-minmuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-old-minmuscle-maxweight.target.gz",
+      "bytes": 77214,
+      "git_blob": "7cf4ea4323d80f00c81563de907d01a8a158888d",
+      "sha256": "770ee3076bc68c9a328e21d33b9e3b2ff5827b66d222e85f07a8ae018fd71a88",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-old-averagemuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-old-averagemuscle-minweight.target.gz",
+      "bytes": 43380,
+      "git_blob": "d9ea4bbc329476a7c8249fda815ed0f2dab54e5a",
+      "sha256": "c9698e079ab31870666948b804c1f3b633338c16a216e2494ede7809969dee40",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-old-averagemuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-old-averagemuscle-averageweight.target.gz",
+      "bytes": 74,
+      "git_blob": "2f566bec26a14011818209bbf0867d1309d79805",
+      "sha256": "3721ecc3f7a6af1d7c22ef20c709b1d37402445b3d203fe31e762b12356b59a6",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-old-averagemuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-old-averagemuscle-maxweight.target.gz",
+      "bytes": 44277,
+      "git_blob": "4bd9bcd26553aa93101913c086d06e3c68d8dda6",
+      "sha256": "185c7fba104d170770240e8700f0ff8ea03b348412af7f3496d6f047d50beb39",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-old-maxmuscle-minweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-old-maxmuscle-minweight.target.gz",
+      "bytes": 47390,
+      "git_blob": "4b8b77aefd4312af7f63766b564793dc22fdee72",
+      "sha256": "7636801e3281c99fc0738d1e89685141fe5b31627fcb16e183b329b343a07d86",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-old-maxmuscle-averageweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-old-maxmuscle-averageweight.target.gz",
+      "bytes": 46209,
+      "git_blob": "48b761cd5b916a12c7cd7cce3b481ca5efc4fd61",
+      "sha256": "d2443e0ce0b3acc60ee68e5617ab15c9ee2dffc646ef4ea2411ab4d123310327",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "src/mpfb/data/targets/macrodetails/universal-male-old-maxmuscle-maxweight.target.gz",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/mpfb2/3af0cd5a2ffba072e93a34e5f6f494fdc4813ddf/src/mpfb/data/targets/macrodetails/universal-male-old-maxmuscle-maxweight.target.gz",
+      "bytes": 57285,
+      "git_blob": "968e3407ace8c360fb2f437b3bb023080f979512",
+      "sha256": "d62997eae51a94b30ab91fb04c34698e2a019c43a36c21b975b8024649eed941",
+      "license": "CC0-1.0"
+    }
+  ],
+  "scope": "48 adult morph targets, one shared topology and rig; one asset family, not 48 independent scans"
+}

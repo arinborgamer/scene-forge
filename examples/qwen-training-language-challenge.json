@@ -1,0 +1,22 @@
+[
+  {
+    "id": "language-001",
+    "prompt": "For the mesh bronze_torso, use a smooth ellipsoid centered at (0, 0, 1.35), with X/Y/Z radii (0.35, 0.25, 0.15) metres. Make it eight percent broader left-to-right (X) within that region. No shifting, and no changes to Y, Z or vertices outside.",
+    "operation": {"op":"deform","target":"bronze_torso","center":[0,0,1.35],"radius":[0.35,0.25,0.15],"translation":[0,0,0],"scale":[1.08,1,1]}
+  },
+  {
+    "id": "language-002",
+    "prompt": "Shift the entire object casework towards negative Y by twenty centimetres. Leave its orientation, size and X/Z position alone.",
+    "operation": {"op":"transform","target":"casework","translation":[0,-0.2,0],"scale":[1,1,1],"rotation_degrees":[0,0,0]}
+  },
+  {
+    "id": "language-003",
+    "prompt": "I need a box called plinth, not rotated, centered at (0, 0, 0.5) metres. It should be 20 centimetres wide on X, 30 centimetres deep on Y, and 40 centimetres high on Z. These are the full dimensions.",
+    "operation": {"op":"primitive","id":"plinth","kind":"box","location":[0,0,0.5],"dimensions":[0.2,0.3,0.4],"rotation_degrees":[0,0,0]}
+  },
+  {
+    "id": "language-004",
+    "prompt": "Edit panel_surface locally: the region center is x=0.08, y=-0.05, z=1.2 metres, and its ellipsoid radii are x=0.18, y=0.22, z=0.1 metres. Give the selected vertices a smooth offset of -0.015 metres on Z. Do not scale them or move the object as a whole.",
+    "operation": {"op":"deform","target":"panel_surface","center":[0.08,-0.05,1.2],"radius":[0.18,0.22,0.1],"translation":[0,0,-0.015],"scale":[1,1,1]}
+  }
+]
